@@ -1,5 +1,5 @@
-function ProfileImage({ imageUrl, handle }) {
-  return <img src={imageUrl} className='profile' alt={`${handle}`}></img>;
+function ProfileImage({ image, handle }) {
+  return <img src={image} className='profile' alt={`${handle}`}></img>;
 }
 
 export default ProfileImage;
